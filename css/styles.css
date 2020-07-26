@@ -52,7 +52,6 @@ a:hover {
 .top-container {
     background-color: #e0ebe8;
     padding-top: 50px;
-    position: relative;
 }
 .middle-container {
     padding-top: 100px;
@@ -106,7 +105,7 @@ a:hover {
 
 .top-cloud {
     position: absolute;
-    padding-top: 15px;
+    padding-top: 10px;
     right: 100px;
     top: 60px;
     width: 15%;
