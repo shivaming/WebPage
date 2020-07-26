@@ -15,7 +15,8 @@ hr  {
 }
 h1 {
     color: #07cfb5;
-    font-size: 5.625rem;
+    font-size: calc(60px + (90 - 60) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
     margin-top: 50px;
     font-family: 'Sacramento', cursive;
     font-weight: lighter;
@@ -105,19 +106,21 @@ a:hover {
 
 .top-cloud {
     position: absolute;
+    padding-top: 15px;
     right: 100px;
     top: 60px;
-    width: 200px;
+    width: 15%;
 }
 .bottom-cloud {
     position: absolute;
     left: 100px;
     top: 200px;
-    width: 300px;
+    width: 20%;
 }
 .hills {
     position: relative;
     top: 4px;
+    width: 70%;
 }
 .btn {
     background: #3cb0fd;
