@@ -62,6 +62,9 @@ a:hover {
 .bottom-container {
     padding-top: 20px;
 }
+.footer-link {
+    padding: 0 8px;
+}
 .links {
     background-color: #07cfb5;
     margin: 0;
